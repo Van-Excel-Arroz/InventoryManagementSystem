@@ -128,7 +128,6 @@ namespace InventoryManagementSystem
 
         private static void AddNewProduct()
         {
-            // This is a simplified method. A real app would have more robust input validation.
             try
             {
                 Console.WriteLine("\n--- Add New Product ---");
