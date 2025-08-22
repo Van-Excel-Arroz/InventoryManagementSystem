@@ -55,7 +55,6 @@ namespace InventoryManagementSystem
             Console.WriteLine("5. Run Category Count Report");
             Console.WriteLine("6. Get Total Inventory Value");
             Console.WriteLine("7. Exit");
-            Console.Write("> ");
         }
 
         private static void ViewAllProducts()
