@@ -47,7 +47,6 @@ namespace InventoryManagementSystem
 
         private static void DisplayMenu()
         {
-            Console.WriteLine("\nChoose an option:");
             Console.WriteLine("1. View All Products");
             Console.WriteLine("2. Add a New Product");
             Console.WriteLine("3. Search for a Product (by name)");
@@ -55,6 +54,7 @@ namespace InventoryManagementSystem
             Console.WriteLine("5. Run Category Count Report");
             Console.WriteLine("6. Get Total Inventory Value");
             Console.WriteLine("7. Exit");
+            Console.Write("\nChoose an option:");
         }
 
         private static void ViewAllProducts()
