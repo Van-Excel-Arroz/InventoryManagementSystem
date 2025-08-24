@@ -49,7 +49,7 @@ namespace InventoryManagementSystem.Data
                 if (existingItemIndex != -1)
                 {
                     _items[existingItemIndex] = entity;
-                    _itemDictionary[existingItemIndex] = entity;
+                    _itemDictionary[entity.Id] = entity;
                 }
             }
         }
